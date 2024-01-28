@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+
+<body class="content">
+    <header>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about/about.html">About</a></li>
+            <li><a href="/cv/cv.html">CV</a></li>
+            <li><a class="active-page" href="/contact/contact.html">Contact</a></li>
+            <li><a href="/portfolio/portfolio.html">Portfolio</a></li>
+        </ul>
+    </header>
+
+    <main class="contact">
+        <aside class="left">
+            <img src="/images/boss.jpg" />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ut neque porro accusamus accusantium
+                perferendis numquam commodi sint quasi inventore expedita obcaecati officia blanditiis asperiores
+                cupiditate, suscipit ad dolores vitae!</p>
+        </aside>
+
+        <aside class="right">
+            <p>RIGHT</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellat hic, a ea voluptatum
+                asperiores quos. Officiis voluptatibus dolorem temporibus impedit reprehenderit quod deserunt fugiat
+                sequi illum, voluptatem, quasi ullam.</p>
+        </aside>
+
+        <article class="main-content">
+            <h2>Contact</h2>
+            <form action="/submit_form" target="_blank" method="post">
+                <fieldset class="field">
+                    <legend>Contact me about monkeys</legend>
+                    <label for="name">Name</label><br />
+                    <input type="text" id="name" name="name" placeholder="monkey businessman" /><br />
+
+                    <label for="email">Email</label><br />
+                    <input type="email" id="email" name="email" placeholder="email@email.email" /><br />
+
+                    <label for="number">Phone number</label><br />
+                    <input type="tel" id="tel" name="tel" placeholder="123-1234567890" /><br />
+
+                    <label for="url">URL</label><br />
+                    <input type="url" id="url" name="url" placeholder="www.url.com" /><br />
+
+                    <label for="message">Suggestions</label><br />
+                    <textarea id="message" name="message" placeholder="monkeys like bananas"></textarea><br />
+
+                    <input type="submit" value="Submit" />
+                </fieldset>
+            </form>
+        </article>
+    </main>
+
+    <footer>Lefuden was here 2024</footer>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+
+<body class="content">
+    <header>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about/about.html">About</a></li>
+            <li><a href="/cv/cv.html">CV</a></li>
+            <li><a href="/contact/contact.html">Contact</a></li>
+            <li><a class="active-page" href="/portfolio/portfolio.html">Portfolio</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <aside class="left">
+            <img src="/images/boss.jpg" />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ut neque porro accusamus accusantium
+                perferendis numquam commodi sint quasi inventore expedita obcaecati officia blanditiis asperiores
+                cupiditate, suscipit ad dolores vitae!</p>
+        </aside>
+
+        <aside class="right">
+            <p>RIGHT</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellat hic, a ea voluptatum
+                asperiores quos. Officiis voluptatibus dolorem temporibus impedit reprehenderit quod deserunt fugiat
+                sequi illum, voluptatem, quasi ullam.</p>
+        </aside>
+
+        <article class="main-content">
+            <h2>Portfolio</h2>
+            <p class="buttonmargin">
+                <a href="#popup1" class="button"><img src="/images/bank.png" /> Group project</a>
+            </p>
+
+            <p class="buttonmargin">
+                <a href="#popup2" class="button"><img src="/images/db.png"> Database</a>
+            </p>
+
+            <p class="buttonmargin">
+                <a href="#popup3" class="button"><img src="/images/geometry.png"> Geometry</a>
+            </p>
+        </article>
+    </main>
+
+    <div class="popup" id="popup1">
+        <div class="popup-inner">
+            <h3>NET23-GrupprojektBank - Team Hyper Hedgehogs</h3>
+            <p>A project we did as a small team of students during "Objektorienterad Programmering med C# & .NET"</p>
+            <a href="https://github.com/Lefuden/NET23-GrupprojektBank" class="button">github</a>
+            <a href="#" class="button">close</a>
+        </div>
+    </div>
+
+    <div class="popup" id="popup2">
+        <div class="popup-inner">
+            <h3>NET23-Db-Labb3</h3>
+            <p>The final part I made for the course "Programmering av databaser och SQL"</p>
+            <a href="https://github.com/Lefuden/NET23-Db-Labb3" class="button">Github</a>
+            <a href="#" class="button">close</a>
+        </div>
+    </div>
+
+    <div class="popup" id="popup3">
+        <div class="popup-inner">
+            <h3>NET-23-Labb7</h3>
+            <p>Another smaller thing from "Objektorienterad Programmering med C# & .NET"</p>
+            <a href="https://github.com/Lefuden/NET23-Labb7Alt" class="button">Github</a>
+            <a href="#" class="button">close</a>
+        </div>
+    </div>
+
+    <footer>Lefuden was here 2024</footer>
+</body>
+
+</html>
